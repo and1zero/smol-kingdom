@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b14q7f1gwq6dl"]
+
+[ext_resource type="PackedScene" uid="uid://77np7fp4q35t" path="res://scenes/warrior.tscn" id="1_wx28n"]
+
+[node name="Main" type="Node"]
+
+[node name="Warrior" parent="." instance=ExtResource("1_wx28n")]
+position = Vector2(-6, -1)
